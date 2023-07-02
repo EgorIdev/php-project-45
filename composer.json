@@ -1,11 +1,12 @@
 {
     "name": "hexlet/code",
     "description": "Brain games",
+    "license": "MIT",
     "autoload": {
-        "psr-4": {
-            "Hexlet\\Code\\": "src/"
-        }
     },
+    "bin": [
+        "bin/brain-games"
+    ],
     "authors": [
         {
             "name": "Egordev",
